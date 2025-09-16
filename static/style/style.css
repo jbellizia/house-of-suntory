@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: 'passion-sans';
-  src: url('static/fonts/passion-sans.ttf') format('truetype');
+  src: url('../fonts/passion-sans.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
