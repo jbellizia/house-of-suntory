@@ -13,9 +13,12 @@
     display:inline;
 }
 
+/* logo larger on mobile */
+.logo-header img{
+    width: 30vw
+}
 
 /*  edits the header so the top of the image is cropped, uses mobile only js to  dynamically resize container*/
-
 .site-header {
     width: 100%;
     max-width: 1200px;
@@ -24,24 +27,28 @@
 }
 
 .header-img-container {
-    width: 100%;
     position: relative;
+    width: 100%;
     overflow: hidden;
-    height: 30vw;
+    aspect-ratio: 480 / 477;
 }
+
 .header-img {
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
     display: block;
-    position: relative;
-    transition: top 0.3s ease;
 }
-.site-header h1{
-    margin-top: 8%;
+
+.site-header h1 {
+    margin-top: 5%;
 }
-.site-header h3{
+
+.site-header h3 {
     font-size: 3vw;
 }
+
+
 
 /* section type 1 edits*/
 /* override order of elements on mobile so image stacks below text for section 1*/

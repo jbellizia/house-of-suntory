@@ -36,16 +36,16 @@ html, body {
 body{
     background-color:var(--tan)
 }
-
-/* Site Header */
 .site-header {
     position: relative;
     width: 100%;
 }
+
 .header-img {
     width: 100%;
-    object-fit:cover;
+    object-fit: cover;
 }
+
 .header-content {
     position: absolute;
     top: 0;
